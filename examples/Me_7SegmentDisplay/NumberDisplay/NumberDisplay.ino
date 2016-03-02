@@ -16,7 +16,8 @@
  * Rafael Lee       2015/09/10     1.0.1            Added some comments and macros.
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 Me7SegmentDisplay disp(PORT_6);
 

@@ -12,7 +12,8 @@
 #include <Wire.h>
 #include <SoftwareSerial.h>
 #include <Arduino.h>
-#include <MeOrion.h>
+#define MeOrion_H
+#include <Makeblock.h>
 #include <Servo.h>
 
 MeDCMotor dc;

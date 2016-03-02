@@ -12,7 +12,8 @@
 #include <Wire.h>
 #include <SoftwareSerial.h>
 #include <Arduino.h>
-#include <MeShield.h>
+#define MeShield_H
+#include <Makeblock.h>
 #include <Servo.h>
 
 Servo servos[8];  

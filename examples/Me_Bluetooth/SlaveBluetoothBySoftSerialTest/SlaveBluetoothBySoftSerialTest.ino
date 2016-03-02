@@ -25,7 +25,8 @@
  * </pre>
  */
  
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 #include <SoftwareSerial.h>
 
 MeBluetooth bluetooth(PORT_3);

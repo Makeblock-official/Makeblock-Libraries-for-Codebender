@@ -29,8 +29,7 @@
  * Rafael Lee       2015/09/02     1.0.1            Added some comments and macros.
  * </pre>
  */
-#ifndef MeOrion_H
-#define MeOrion_H
+#ifdef MeOrion_H
 
 #include <Arduino.h>
 #include "MeConfig.h"

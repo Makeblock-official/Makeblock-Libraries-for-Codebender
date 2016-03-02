@@ -18,7 +18,8 @@
  * </pre>
  */
 
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 #include <Wire.h>
 #include <SoftwareSerial.h>
 

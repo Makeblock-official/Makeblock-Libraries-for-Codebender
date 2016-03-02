@@ -16,7 +16,8 @@
  * Mark Yan     2015/09/07    1.0.0          rebuild the old lib
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 // Me_LimitSwitch module can only be connected to PORT_3, PORT_4, PORT_6,PORT_7,PORT_8 of base shield
 // or from PORT_3 to PORT_8 of baseboard.

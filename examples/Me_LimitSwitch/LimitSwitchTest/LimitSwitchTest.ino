@@ -18,7 +18,8 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 /* Private variables ---------------------------------------------------------*/
 // Me_LimitSwitch module can only be connected to PORT_3, PORT_4, PORT_6, PORT_7, 

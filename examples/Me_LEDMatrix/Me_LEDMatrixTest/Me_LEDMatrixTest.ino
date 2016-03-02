@@ -19,7 +19,8 @@
  * Mark Yan     2016/01/27    1.0.1          add digital printing
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 MeLEDMatrix ledMx(PORT_4);
 

@@ -30,8 +30,7 @@
  * Mark Yan         2015/11/09     1.0.1            fix some comments error.
  * </pre>
  */
-#ifndef MeMCore_H
-#define MeMCore_H
+#ifdef MeMCore_H
 
 #include <Arduino.h>
 #include "MeConfig.h"
@@ -77,4 +76,3 @@ MePort_Sig mePort[15] =
   {  5,  4 }, { NC, NC }, { NC, NC }, { NC, NC }, { NC, NC },
 };
 #endif // MeMCore_H
-

@@ -28,7 +28,8 @@
  * </pre>
  */
 
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 #include "SoftwareSerial.h"
 //MeUSBHost usbhost(13,12);
 MeUSBHost usbhost(PORT_3);

@@ -19,7 +19,8 @@
  * Mark Yan     2015/09/01    1.0.0          rebuild the old lib
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 MeJoystick joystick(PORT_6);
 

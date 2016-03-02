@@ -22,7 +22,8 @@
  * forfish      2015/11/18    1.0.1          Add some functions.
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 MeHumiture humiture(PORT_6);
 

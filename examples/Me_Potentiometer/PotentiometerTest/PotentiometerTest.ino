@@ -18,7 +18,8 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 /* Private variables ---------------------------------------------------------*/
 MePotentiometer myPotentiometer(PORT_6);
