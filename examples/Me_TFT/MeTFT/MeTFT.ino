@@ -14,7 +14,8 @@
  * Mark Yan         2015/11/10     1.0.0                   
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 #include <SoftwareSerial.h>
 
 MeSerial mySerial(PORT_5);

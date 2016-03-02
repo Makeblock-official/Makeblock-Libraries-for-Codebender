@@ -16,7 +16,8 @@
  * Mark Yan         2015/07/24     1.0.0            Rebuild the old lib.
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 void setup() 
 {

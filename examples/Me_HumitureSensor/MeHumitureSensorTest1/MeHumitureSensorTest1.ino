@@ -17,7 +17,8 @@
  * Mark Yan     2015/09/07    1.0.0          rebuild the old lib
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 MeHumiture humiture(PORT_6);
 

@@ -20,7 +20,8 @@
  * </pre>
  */
 
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 uint8_t		TimeDisp[] = { 0x00, 0x00, 0x00, 0x00 };
 unsigned char	second;

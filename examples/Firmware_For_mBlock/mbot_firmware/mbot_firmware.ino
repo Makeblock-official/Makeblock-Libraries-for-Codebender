@@ -10,7 +10,8 @@
 * http://www.makeblock.cc/
 **************************************************************************/
 #include <Wire.h>
-#include <MeMCore.h>
+#define MeMCore_H
+#include <Makeblock.h>
 #include <Servo.h>
 
 Servo servos[8];  

@@ -16,7 +16,8 @@
  * </pre>
  */
 
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 MePort output(PORT_4);
 

@@ -49,11 +49,14 @@
 #if defined(PRO_ME_BASEBOARD)
 #include <MeBaseBoard.h>
 #elif defined(PRO_ME_ORION)
-#include <MeOrion.h>
+#define MeOrion_H
+#include <Makeblock.h>
 #elif defined(PRO_ME_CORE)
-#include <MeMCore.h>
+#define MeMCore_H
+#include <Makeblock.h>
 #elif defined(PRO_ME_SHIELD)
-#include <MeShield.h>
+#define MeShield_H
+#include <Makeblock.h>
 #endif
 
 MeDCMotor dc;

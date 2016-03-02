@@ -18,7 +18,8 @@
  * Mark Yan     2015/09/01    1.0.0          rebuild the old lib
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 #include <SoftwareSerial.h>
 
 MeInfraredReceiver infraredReceiverDecode(PORT_6);

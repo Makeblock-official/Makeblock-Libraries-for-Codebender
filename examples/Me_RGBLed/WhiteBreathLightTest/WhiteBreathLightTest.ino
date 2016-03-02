@@ -16,7 +16,8 @@
  * </pre>
  */
 
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 MeRGBLed led1(PORT_3, SLOT1, 15);   /* parameter description: port, slot, led number */
 MeRGBLed led2(PORT_3, SLOT2, 15);

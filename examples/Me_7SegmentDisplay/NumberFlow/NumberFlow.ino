@@ -21,7 +21,8 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 /* Private variables ---------------------------------------------------------*/
 Me7SegmentDisplay disp(PORT_6);

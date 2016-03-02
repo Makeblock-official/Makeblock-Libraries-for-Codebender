@@ -23,7 +23,8 @@
  * </pre>
  */
 
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 #include <SoftwareSerial.h>
 
 unsigned char table[128] = {0};

@@ -20,7 +20,8 @@
  * </pre>
  *
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 #include <Wire.h>
 
 MeGyro gyro;

@@ -16,7 +16,8 @@
  * </pre>
  */
 
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 int dirPin = mePort[PORT_1].s1;//the direction pin connect to Base Board PORT1 SLOT1
 int stpPin = mePort[PORT_1].s2;//the Step pin connect to Base Board PORT1 SLOT2

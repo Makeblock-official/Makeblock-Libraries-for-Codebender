@@ -11,7 +11,8 @@
 **************************************************************************/
 #include <Wire.h>
 #include <SoftwareSerial.h>
-#include <MeMCore.h>
+#define MeMCore_H
+#include <Makeblock.h>
 #include <Servo.h>
 
 MeRGBLed rgb(0,16);

@@ -14,7 +14,8 @@
  * Mark Yan     2015/12/15    1.0.0          Build the new
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 #include <SoftwareSerial.h>
 #include "MeVoice.h"
 

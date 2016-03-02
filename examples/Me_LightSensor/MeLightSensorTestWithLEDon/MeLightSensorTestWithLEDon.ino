@@ -19,7 +19,8 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 /* Private variables ---------------------------------------------------------*/
 MeLightSensor lightSensor(PORT_6);

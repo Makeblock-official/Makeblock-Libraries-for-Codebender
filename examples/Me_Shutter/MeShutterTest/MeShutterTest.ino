@@ -18,7 +18,8 @@
  * Mark Yan     2015/09/01    1.0.0          rebuild the old lib
  * </pre>
  */
-#include "MeOrion.h"
+#define MeOrion_H
+#include <Makeblock.h>
 
 // MeShutter module can only be connected to the PORT_3, PORT_4, PORT_6 on Orion board
 MeShutter myshutter(PORT3);
